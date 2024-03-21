@@ -1,0 +1,123 @@
+@import './partials/global';
+@import './partials/font-family';
+
+.main-nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        width: 350px;
+        height: auto;
+    }
+
+    &__list-item{
+        display: inline-block;
+        padding-right: 50px;
+
+        &--last{
+            padding-right: 68px;
+        }
+    }
+    &__link{
+        font-family: Poppins;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding-left: 68px;
+    padding-right: 68px;
+    height: 70vh;
+
+    &__title{
+        font-family: Poppins;
+        font-weight: 300;
+        color: #E0E0E0;
+        font-size: 30px;
+    }
+
+    &__container{
+        display: flex;
+        width: 800px;
+        height: 50vh;
+        align-items: center;
+
+        &--image{
+            width: 50%;
+            height: 40vh;
+            background-image: url(../assets/images/teamPhoto.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 0px 4px 8px 0px rgba(225, 225, 225, 0.5);
+            opacity: 80%;
+        }
+    }
+}
+
+.programs{
+    height: 60vh;
+    background-color:#E0E0E0;
+    text-align: center;
+
+    &__container{
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    &__heading{
+        margin:0;
+        padding-top: 50px;
+        font-size: 50px;
+        font-family: poppins;
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 300px;
+        width: 20%;
+        background-color: white;
+        border-radius: 20%;
+    }
+
+    &__title{
+        font-family: Poppins;
+        padding-right: 50px;
+    }
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    justify-content: center;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__info{
+        padding-top: 80px;
+        color: white;
+        font-size: 16px;
+    }
+
+    &__image{
+        width: 350px;
+        height: auto;
+    }
+
+    
+}
